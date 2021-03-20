@@ -54,7 +54,7 @@
     * Transitive dependency is a functional dependency between two (or more) non-key attributes.
 
 * **Entity relationship diagram**<br />
-  An ERD shows the relationship between tables. The three relationships are:
+  An ERD visualises the database structure. It displays each table, the relationships between tables, hightlights their primary keys, the table's attributes and their datatype. The three relationships are:
   * **One-to-One:** If a row in table A has only one matching row in table B, and vice versa. E.g. people and national insurance numbers.
   * **One-to-Many:** If a row in table A has many matching rows in table B, but a row in table B has only one matching row in table A. E.g. students and borrowing books.
   * **Many-to-Many:** If a row in table A has many matching rows in table B, and vice versa. E.g. students and modules. Junction tables are often used between many-to-many relationship tables to 'turn' it into a one-to-many relationship.
