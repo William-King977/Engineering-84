@@ -37,6 +37,7 @@ WHERE Country = 'UK';
 
 -- 1.6 Sales Regions with a Sales Total of more than 1,000,000. 
 -- Discount applied per item.
+-- 'Skipped' the Employee table in the INNER JOIN.
 SELECT r.RegionDescription AS "Region", 
     FORMAT(SUM(od.UnitPrice * (1 - Discount) * od.Quantity), 'C') AS "Sales Total"
 FROM Territories t
@@ -118,10 +119,10 @@ HAVING SUM(od.UnitPrice * (1 - od.Discount) * od.Quantity) > 10000
 ORDER BY SUM(od.UnitPrice * (1 - od.Discount) * od.Quantity) DESC;
 
 
--- 3.3 Top 10 Customers YTD for the latest year (1998), based on total value of orders shipped.
+-- 3.3 Top 10 Customers YTD for the latest year, based on total value of orders shipped.
 -- Only using records with a shipping date.
 SELECT TOP 10 o.CustomerID,
-    FORMAT(SUM(od.UnitPrice * (1 - od.Discount) * od.Quantity), 'C') AS "Total Value of Orders in 1998"
+    FORMAT(SUM(od.UnitPrice * (1 - od.Discount) * od.Quantity), 'C') AS "Total Value of Orders in YTD"
 FROM Orders o 
     INNER JOIN [Order Details] od ON o.OrderID = od.OrderID
 WHERE o.ShippedDate IS NOT NULL 
