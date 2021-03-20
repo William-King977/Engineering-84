@@ -26,7 +26,8 @@ SELECT OrderID, ProductID, UnitPrice, Quantity, Discount,
 FROM [Order Details]
 
 
--- WHAT DOES THIS DO?
+-- Subquery calculates total revenue made by each product.
+-- Results are INNER joined with each product and used for calculations in the main query.
 SELECT od.ProductID, sq1.totalamt AS "Total Sold for this Product",
     UnitPrice, UnitPrice/totalamt * 100 AS "% of Total"
 FROM [Order Details] od
