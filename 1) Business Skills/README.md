@@ -26,19 +26,33 @@
   * **INNER JOIN:** Returns records that have matching values on both tables.
   * **LEFT JOIN:** Returns all records from the left table, and the matched records from the right table. Any left values unmatched will be NULL.
   * **RIGHT JOIN:** Returns all records from the right table, and the matched records from the left table. Any right values unmatched will be NULL.
-  * **FULL JOIN:** Returns all the records when there is a match in either the left or right table. Anything not matching will have NULL values.
+  * **FULL JOIN:** Returns all the records when there is a match in either the left or right table. Anything not matching will be filled out with NULL values.
 
 * **What is a primary key and their function?**<br />
   A primary key is an ttribute (or collection of attributes) that uniquely identifies each record in a table. The constraint ensures that the primary key is unique, not NULL and that there is only one primary key.  
 
 * **What is a foreign key and their function?**<br />
-  A foreign key is an attribute (or collection of attributes) in one table that refers to the primary key in a another table. It ensures that the row of information in Table A corresponds to the correct row of information in Table B. The constraint prevents actions that would destroy links between the tables. It also prevents the primary key referenced record from being deleted unless there are no foreign key references to it. With ON DELETE CASCADE, deleting the primary key record will also delete any foreign key rows referring to it. 
+  A foreign key is an attribute (or collection of attributes) in one table that refers to the primary key in a another table. It ensures that the row of information in table A corresponds to the correct row of information in table B. The constraint prevents actions that would destroy links between the tables. It also prevents the primary key referenced record from being deleted unless there are no foreign key references to it. With ON DELETE CASCADE, deleting the primary key record will also delete any foreign key rows referring to it. 
 
 * **Types of SQL and their commands.**<br />
-  * **Data Manipulation Language:** SELECT, INSERT, UPDATE, DELETE
-  * **Data Definition Language:** CREATE, ALTER, DROP, TRUNCATE
-  * **Data Control Language:** GRANT, REVOKE
-  * **Transaction Control Language:** COMMIT, ROLLBACK, SAVEPOINT
+  The operations in SQL can be divided into multiple categories.
+  * **Data Manipulation Language:** Handles the manipulation of data in the table and can be used to access, modify or delete existing records.
+    * SELECT – retrieve data from a table.
+    * INSERT – insert data into a table.
+    * UPDATE – updates existing data within a table.
+    * DELETE – deletes records from a table.
+  * **Data Definition Language:** Defines the table schema and database structure as well as modifying their structure.
+    * CREATE – creates databases and tables.
+    * ALTER – modifies of the structure of an existing table. E.g. add, delete, modify columns, and add constraints.
+    * DROP – deletes the whole table and its structure.
+    * TRUNCATE – deletes all of the table's records while keeping its structure intact.
+  * **Data Control Language:** Handles user permissions on the database.
+    * GRANT – grants the user's access privileges to the database. E.g. granting the developers the SELECT command.
+    * REVOKE – withdraws the user's access privileges given by GRANT, or previously denied permissions. 
+  * **Transaction Control Language:** Used to manage transactions within a database.
+    * COMMIT – permanently saves a transaction into the database.
+    * ROLLBACK – reverts to a previous savepoint in case of errors.
+    * SAVEPOINT – temporary saves a transaction for rollback purposes.
 
 * **Explain normalisation and the 3 Normal Forms.**<br />
   Normalisation is database design technique for designing relational database tables to reduce data redundancy and remove undesirable effects from operations like INSERT, UPADATE, and DELETE.
