@@ -72,3 +72,13 @@
   * **One-to-One:** If a row in table A has only one matching row in table B, and vice versa. E.g. people and national insurance numbers.
   * **One-to-Many:** If a row in table A has many matching rows in table B, but a row in table B has only one matching row in table A. E.g. students and borrowing books.
   * **Many-to-Many:** If a row in table A has many matching rows in table B, and vice versa. E.g. students and modules. Junction tables are often used between many-to-many relationship tables to 'turn' it into a one-to-many relationship.
+
+## Git and GitHub
+* **What is Git and its benefits?**
+  Git is a version control system.
+  
+* **What is GitHub and its benefits?**
+  GitHub is an online repository saved on a cloud.
+  
+  ![image](https://user-images.githubusercontent.com/44005332/111989661-f8cbbb80-8b09-11eb-91d4-5e7af3ed5476.png)
+  
