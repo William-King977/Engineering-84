@@ -122,7 +122,7 @@ An image of linking a local machine to GitHub using a SSH key. View more [detail
   ```
   
 * **What is an API and why should we use it?**<br />
-  An Application Programming Interface ... An example with the `requests` module is shown below:
+  An Application Programming Interface is a set of definitions and protocols that allow software products and services to communicate with each other via the internet. Essentially, it is the messenger that runs and delivers your request to the provider you're requesting it from, and then delivers the response back to you. Using APIs allows developers to add specific functionalities to applications and can speed up the development process. An example with the `requests` module is shown below:
   ```python
   import requests # allows you to send HTTP requests
     
