@@ -82,4 +82,61 @@
   
 An image of linking a local machine to GitHub using a SSH key. View more [details here](https://github.com/William-King977/eng84_git_github_setup).
 ![image](https://user-images.githubusercontent.com/44005332/111989661-f8cbbb80-8b09-11eb-91d4-5e7af3ed5476.png)
+
+## Object Oriented Programming
+* **What is OOP?**<br />
+  OOP is a programming paradigm that relies on the concept of classes and objects. It is used to structure a program into simple, reusable pieces of code blueprints (classes), which are used to create individual instances of objects.
   
+* **Benefits of OOP**<br />
+  * OOP models complex code as reproducible and simple structures
+  * OOP objects can be used across different programs
+  * Class-specific behaviour can be applied through polymorphism
+  * Makes it easier to debug programs as they can usually be isolated into single classes
+  * Protects attributes and methods through encapsulation
+  
+* **Four Pillars of OOP**<br />
+  * **Abstraction:** Abstraction means to hide away the implementation details inside something from the user. For example, when calling a function to calculate tax, the user doesn't need to know how the tax is calculated. This allows code to be reusable and be more maintainable.
+  * **Encapsulation:** Encapsulation is the action of enclosing something in or as if in a capsule. In OOP, it is making data private from the user and controlling its access. It can be used to restrict access to certain attributes and methods. Encapsulation prevents attributes from being modified unexpectedly, especially when they are overridden, and hides away any data that doesn't need to be seen or accessed. 
+  * **Inheritance:** Inheritance is when a class inherits attributes and methods from a parent class. For example, there is an `Animal` class, and the subclasses include cats, dogs, and sharks. Those subclasses will share the same attributes and methods from the `Animal` class. The main benefit of inheritance is that it saves you time from needing to retype the methods and attributes from the parent class.
+  * **Polymorphism:** Polymorphism means "many forms", essentially when the same thing takes on many forms. This occurs during inheritance when the subclasses override the attributes or methods with their own behaviours. For example, with a `Snake` class, a python can inherit from a snake and share the attributes and methods, such as `is_venomous` and `use_venom()`. In this case, because a python is not venomous, these can be overridden to have or return values that are suitable for a python.
+
+## Python Packages, Modules and APIs
+* **What is a package?**<br />
+  A package is a collection of Python modules, so it is basically a hierarchical file directory structure of Python modules and subpackages that has an `__init__.py` file to distinguish it from a "normal" file directory. They can be used with the following command:
+  ```python
+  # importing datetime package
+  import datetime
+  ```
+  
+* **What are the benefits of packages?**<br />
+  Python packages allow you to break down large programs and organise their modules in a consistent way, so that they can be used and reused efficiently. 
+  
+* **What is a Python module?**<br />
+  A Python module is a file containing Python definitions, statements and functions. Any Python file is a module. These can be imported into a Python file for added functionality without the need of repeating code.
+  ```python
+  # importing date module from datetime package
+  from datetime import date
+
+  # you can import your own python files in the same directory
+  import my_file
+  ```
+  
+* **What is an API and why should we use it?**<br />
+  An Application Programming Interface is a server that you can use to retrieve and send data to using code. To retrieve data from an API, we need to make a request, then the server will respond to the request. An example with the `requests` module is shown below:
+  ```python
+  import requests
+    
+  response = requests.get("http://www.bbc.co.uk/")
+    
+  # Status (code) 200 means the website is live and running
+  # Status (code) 400 or 404 means not working
+  if response:
+      print(f"Success {response.status_code}.")
+  else:
+      print(f"Oops, something went wrong {response}.")
+  ```
+  
+* **What is pip?**<br />
+  `pip` is a package manager in Python that allows you to install and manage additional packages that are not part of the Python standard library.
+  * To use pip: `pip install package_name`
+  * E.g. `pip3 install requests`
