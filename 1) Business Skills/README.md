@@ -122,9 +122,9 @@ An image of linking a local machine to GitHub using a SSH key. View more [detail
   ```
   
 * **What is an API and why should we use it?**<br />
-  An Application Programming Interface is a server that you can use to retrieve and send data to using code. To retrieve data from an API, we need to make a request, then the server will respond to the request. An example with the `requests` module is shown below:
+  An Application Programming Interface ... An example with the `requests` module is shown below:
   ```python
-  import requests
+  import requests # allows you to send HTTP requests
     
   response = requests.get("http://www.bbc.co.uk/")
     
