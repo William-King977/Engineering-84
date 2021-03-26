@@ -80,6 +80,6 @@
 * **What is GitHub and its benefits?**<br />
   GitHub is a platform that holds online repositories saved on a cloud, so that multiple developers can work on a single project and see each other's edits in real time. It incorporates Git's version control features, and provides project organisation and management features. Compared with Git, changes made can be seen in real time, repositories are public meaning that developers can interact with and contribute to each other's code in order to modify it or improve it, and remote backups of repositories are stored on GitHub.
   
-  An image of linking Git with GitHub. View more [details here](https://github.com/William-King977/eng84_git_github_setup).
-  ![image](https://user-images.githubusercontent.com/44005332/111989661-f8cbbb80-8b09-11eb-91d4-5e7af3ed5476.png)
+An image of linking a local machine to GitHub using a SSH key. View more [details here](https://github.com/William-King977/eng84_git_github_setup).
+![image](https://user-images.githubusercontent.com/44005332/111989661-f8cbbb80-8b09-11eb-91d4-5e7af3ed5476.png)
   
