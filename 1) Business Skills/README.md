@@ -121,8 +121,8 @@ An image of linking a local machine to GitHub using a SSH key. View more [detail
   import my_file
   ```
   
-* **What is an API and why should we use it?**<br />
-  An Application Programming Interface is a set of definitions and protocols that allow software products and services to communicate with each other via the internet. Essentially, it is the messenger that runs and delivers your request to the provider you're requesting it from, and then delivers the response back to you. Using APIs allows developers to add specific functionalities to applications and can speed up the development process. An example with the `requests` module is shown below:
+* **What is an API?**<br />
+  An Application Programming Interface is a set of definitions and protocols that allow software products and services to communicate with each other via the internet. Essentially, it is the messenger that runs and delivers your request to the provider you're requesting it from, and then delivers the response back to you. An example with the Python `requests` module is shown below:
   ```python
   import requests # allows you to send HTTP requests
     
@@ -135,6 +135,9 @@ An image of linking a local machine to GitHub using a SSH key. View more [detail
   else:
       print(f"Oops, something went wrong {response}.")
   ```
+  
+* **Why should we use APIs?**<br />
+  Using APIs makes it possible to integrate different systems together. For example, an API can be used to enable a Customer Relationship Management (CRM) system and Marketing Automation system to communicate with each other, so that you can send a marketing email when a sales representative adds a new customer on a CRM. APIs add functonalities for improving customer experience and interaction with the organisation. For example, using an API to automatically notify the customer when their delivery has been dispatched. Also, APIs can help reduce software development costs by allowing developers to build reusable components. For example, a backend developer can create a system that holds information about customers. Then other developers across the organisation can use APIs to grab that information and track payments for finance and accounts payable, help customer service resolve problems faster, or even create recommendations for marketing campaigns.
   
 * **What is pip?**<br />
   `pip` is a package manager in Python that allows you to install and manage additional packages that are not part of the Python standard library.
