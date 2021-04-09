@@ -149,13 +149,16 @@ An image of linking a local machine to GitHub using a SSH key. View more [detail
   DevOps is the practice of combining both the software development and system operations teams to help deliverer products at a faster pace than traditional software development methods. This ensures that they work together across the entire application lifecycle. The benefits of implementing DevOps is that it encourages increased collaboration between the teams, products are delivered in smaller but more frequent iterations to better adapt to changing requirements, and there will be an increase in the quality of the product due to automated testing throughout. 
   
 * **Why do you want to become a DevOps Engineer/Consultant?**<br />
-
+  
+  
 * **Explain the role of a DevOps Engineer/Consultant.**<br />
+  A DevOps Consultant works with developers and system operations to deploy products and automate releases to the cloud or local infrastructure. They will use tools to be able to deploy infrastructure as code, test the platform during development and hook in monitoring systems.
 
 * **What is cloud computing and why should we use it?**<br />
+  
 
 * **Explain how you implemented:**
-  * **DRY:**
-  * **OOP:**
+  * **DRY:** 
+  * **OOP:** 
   * **MVC:**
   * **MVT:** <- ???
