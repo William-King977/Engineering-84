@@ -155,10 +155,9 @@ An image of linking a local machine to GitHub using a SSH key. View more [detail
   A DevOps Consultant works with developers and system operations to deploy products and automate releases to the cloud or local infrastructure. They will use tools to be able to deploy infrastructure as code, test the platform during development and hook in monitoring systems.
 
 * **What is cloud computing and why should we use it?**<br />
-  
+  Cloud computing is the delivery of computing services (servers, storage, databases, networking etc.) over the Internet (the cloud) to offer faster innovation, flexible resources, and economies of scale. Cloud services are normally pay-as-you-go, which helps lower operating costs, run the infrastructure more efficiently and can scale as the business changes. 
 
 * **Explain how you implemented:**
-  * **DRY:** 
-  * **OOP:** 
-  * **MVC:**
-  * **MVT:** <- ???
+  * **DRY:** In the Python Plane Project, 
+  * **OOP:** In the Python Plane Project, 
+  * **MVC:** In class, we designed a simple MVC using Flask. However, using Flask is a future consideration for the Python Plane Project.
