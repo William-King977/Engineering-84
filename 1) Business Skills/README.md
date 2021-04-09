@@ -9,10 +9,6 @@
 * **Where do you see yourself in a few years time?**<br />
   I first see myself being a Junior DevOps consultant, progressing to a DevOps consultant, then a Senior DevOps consultant with a large, well-known company and I do see myself putting in the work to get towards that level.
 
-## DevOps
-* **What is DevOps and the benefits of using it?**<br />
-  DevOps is the practice of combining both the software development and system operations teams to help deliverer products at a faster pace than traditional software development methods. This ensures that they work together across the entire application lifecycle. The benefits of implementing DevOps is that it encourages increased collaboration between the teams, products are delivered in smaller but more frequent iterations to better adapt to changing requirements, and there will be an increase in the quality of the product due to automated testing throughout. 
-
 ## Agile and Scrum
 * **What is Agile and the benefits of implementing it?**<br />
   Agile is a software development methodology that focuses on iterative development, responding to changing requirements, and delivering working software quickly, while reducing overheads, such as documentation. The benefits of Agile is that it can lower project risk as there are risk assessments throughout the project, there is ongoing customer engagement, so that the end product will be exactly what the customer wants, and it can adapt to changing requirements to fit customer needs with minimal effort, regardless of the project's progress.
@@ -146,3 +142,20 @@ An image of linking a local machine to GitHub using a SSH key. View more [detail
   * Using APIs makes it possible to integrate different systems together. For example, an API can be used to enable a Customer Relationship Management (CRM) system and a Marketing Automation system to communicate with each other, so that you can send a marketing email when a sales representative adds a new customer on a CRM. 
   * APIs can be used to add functionalities for improving customer experience and interaction with the organisation. For example, using an API to automatically notify the customer when their delivery has been dispatched.
   * APIs can help reduce software development costs by allowing developers to build reusable components. For example, a backend developer can create a system that holds information about customers. Then other developers across the organisation can use APIs to grab that information and track payments for finance and accounts payable, help customer service resolve problems faster, or even create recommendations for marketing campaigns.
+
+
+## DevOps
+* **What is DevOps and the benefits of using it?**<br />
+  DevOps is the practice of combining both the software development and system operations teams to help deliverer products at a faster pace than traditional software development methods. This ensures that they work together across the entire application lifecycle. The benefits of implementing DevOps is that it encourages increased collaboration between the teams, products are delivered in smaller but more frequent iterations to better adapt to changing requirements, and there will be an increase in the quality of the product due to automated testing throughout. 
+  
+* **Why do you want to become a DevOps Engineer/Consultant?**<br />
+
+* **Explain the role of a DevOps Engineer/Consultant.**<br />
+
+* **What is cloud computing and why should we use it?**<br />
+
+* **Explain how you implemented:**
+  * **DRY:**
+  * **OOP:**
+  * **MVC:**
+  * **MVT:** <- ???
