@@ -143,21 +143,20 @@ An image of linking a local machine to GitHub using a SSH key. View more [detail
   * APIs can be used to add functionalities for improving customer experience and interaction with the organisation. For example, using an API to automatically notify the customer when their delivery has been dispatched.
   * APIs can help reduce software development costs by allowing developers to build reusable components. For example, a backend developer can create a system that holds information about customers. Then other developers across the organisation can use APIs to grab that information and track payments for finance and accounts payable, help customer service resolve problems faster, or even create recommendations for marketing campaigns.
 
-
 ## DevOps
 * **What is DevOps and the benefits of using it?**<br />
   DevOps is the practice of combining both the software development and system operations teams to help deliverer products at a faster pace than traditional software development methods. This ensures that they work together across the entire application lifecycle. The benefits of implementing DevOps is that it encourages increased collaboration between the teams, products are delivered in smaller but more frequent iterations to better adapt to changing requirements, and there will be an increase in the quality of the product due to automated testing throughout. 
   
 * **Why do you want to become a DevOps Engineer/Consultant?**<br />
-  
+  I want to become a DevOps Consultant because I want to get involved with both the software development and system operations sides of the service lifecycle, effectively bridging the gap between the two teams, while working with different technologies and practices, such as using virtual machines, cloud computing, infrastructure as code and CI/CD.
   
 * **Explain the role of a DevOps Engineer/Consultant.**<br />
   A DevOps Consultant works with developers and system operations to deploy products and automate releases to the cloud or local infrastructure. They will use tools that allow them to deploy infrastructure as code, test the platform during development and hook in monitoring systems. Also, they will provide teams the education about how to make use of DevOps processes and tools to achieve business outcomes. 
 
 * **What is cloud computing and why should we use it?**<br />
-  Cloud computing is the delivery of computing services (servers, storage, databases, networking etc.) over the Internet (the cloud) to offer faster innovation, flexible resources, and economies of scale. Cloud services are normally pay-as-you-go, which helps lower operating costs, run the infrastructure more efficiently and can scale as the business changes. The cloud is a secure storage that protects your data from potential threats as well as being reliable for disaster recovery.
+  Cloud computing is the delivery of computing services (servers, storage, databases, networking etc.) over the Internet (the cloud) to offer faster innovation, flexible resources, and economies of scale. Cloud services are normally pay-as-you-go, which helps lower operating costs, run the infrastructure more efficiently and can scale as the business changes. The cloud is a secure storage that protects your data from potential security threats as well as being reliable for disaster recovery.
 
 * **Explain how you implemented:**
-  * **DRY:** In the Python Plane Project, 
-  * **OOP:** In the Python Plane Project, 
+  * **DRY:** In the Python Plane Project, we created a database runner class that can be imported into any Python file when you want to "run" the database. This removes the need to write the code to open and close the connection as this is dealt with in the class as well as providing methods for frequently used (or very similar) queries.
+  * **OOP:** In the Python Plane Project, we needed to create some classes, one of which was the Person class. The Plane System consisted of passengers and staff, so classes were created for them and they were inherited from the Person class. This meant that both the Passenger and Staff class share the same methods and attributes from the Person class as well as having the ability to implement methods and attributes that are exclusive to the respective classes.
   * **MVC:** In class, we designed a simple MVC using Flask. It was used to for basic interactions with a HTML page. However, using Flask is a future consideration for the Python Plane Project.
